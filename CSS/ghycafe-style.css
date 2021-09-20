@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#logo{
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+}
+
+
+#navbar{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+#carouselExampleControls{
+    margin-top: 4rem;
+}
+
+
+.headings {
+    margin-top: 3rem;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 6rem;
+    margin-bottom: 4rem;
+}
+
+
+#cards, #cards2, #cards3{
+    margin: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.card{
+     border: 2px solid seashell;
+     border-radius: 10px;
+     margin-bottom: 4rem;
+     box-shadow: 1px 8px 20px rgba(0,0,0,0.18);
+}
+
+
+.card-text{
+    font-weight: bolder;
+    font-family: 'Zeyada', cursive;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.reservation{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+#reservation{
+    margin-bottom: 2rem;
+}
+
+address, #number{
+    font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.nav-item:hover{
+    animation-name: navbar;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes navbar{
+    100%{
+        background-color: rgb(190, 44, 44);
+        transform: scale(1.1);
+    }
+}
+
+

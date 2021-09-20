@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#logo{
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+}
+
+
+#navbar{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.heading{
+    margin-top: 3rem;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 6rem;
+    margin-bottom: 4rem;
+}

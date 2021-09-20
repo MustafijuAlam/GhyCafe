@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#logo{
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+}
+
+
+#navbar{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.heading{
+    margin-top: 3rem;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 6rem;
+    margin-bottom: 4rem;
+}
+
+
+#title{
+    font-family: 'Satisfy', cursive;
+    font-size: 2rem;
+}
+
+
+.aboutcontainer{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    padding-bottom: 4rem;
+    width: 80%;
+    margin: auto;
+}
+
